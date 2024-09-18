@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - V.S.S. Himaja Thulasi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .main {
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            font-family: sans-serif;
+        }
+.navbar
+ {
+            width: 86%;
+            display: flex;
+            margin: auto;
+            padding: 15px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar .logo {
+            width: 160px;
+            cursor: pointer;
+            margin-top: 1%;
+            margin-left: -2%;
+        }
+ul
+ {
+            margin-top: -8%;
+        }
+        ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        ul li a {
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: darkslategray;
+            transition: .4s ease;
+        }
+
+        ul li a:hover {
+            color: rgb(230, 104, 59);
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 0px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me via the form below:</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
